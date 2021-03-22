@@ -1,3 +1,4 @@
 # Comentamos los aspectos técnicos de las visualizaciones
 [visualización 1](https://www.newtral.es/tiempo-lectura-durante-confinamiento/20210303/)
 
+[viualizacion 2](https://www.newtral.es/como-entender-factura-de-la-luz/20210322/)
