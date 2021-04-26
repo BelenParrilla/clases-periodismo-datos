@@ -1,0 +1,129 @@
+<!DOCTYPE>
+<html lang= "es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Máster en Periodismo digital y de datos</strong>Universidad nebrija</a>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Ejercicio 3. Análisis de datos</h1>
+										<p>Utilizando la terminal cigwin para organizar una base de datos</p>
+									</header>
+								
+									<hr class="major" />
+
+									<p>Este último ejercicio consiste en administrar una serie de datos utilizando el terminal y el editor nano. Los datos utilizados han sido obtenidos del <a href="https://www.ine.es/jaxiT3/Datos.htm?t=28744">INE</a>He elegido la base de datos de menores condenados de delitos sexuales, porque me parecía un tema importante, del que no se habla demasiado y además, los datos han tenido un crecimiento exponencial.
+                    En concreto, he hecho dos gráficas. La primera se centra en el evolución del número de delitos en los años 2017, 2018 y 2019. En el sengundo le he dado mayor importancia a la edad de los condenados durante 2019 ya que me parecen unos datos impactantes.
+                    Los datos los he descargado desde la página del INE, en formato CSV.</p>
+                  
+                  <p>El siguiente paso,una vez descargados los archivos, creé una carpeta específica en el ordenador para guardar dichos datos. En esta ocasión, la base de datos no contenía una gran cantidad de muestras, así que organizarlos no fue complicado.
+                  El primer paso fue utilizar el comando "cd Documents" y una vez ahí, utilicé ls para saber qué había dentro. Luego, fui accediendo a las diferentes carpetas hasta llegar a la que contenía los datos que me había descargado. Tras entrar en el archivo, esccribo "file datos1.csv" para saber qué información contiene.
+                  A continuación, para saber cuánto pesa el archivo, utilizo el comando "du -sh" y "wc -l" para saber cuántas líneas tiene la base de datos, que en este caso son 16 datos.
+                  Para ver las primeras líneas de mi documento utilizo "head" para ver las 10 primeras líneas, y a continuación pongo el comendo "cat" para que lea y muestre todos los datos.</p>
+                  <h2>Accediendo a los datos desde la terminal cigwin</h2>
+                  <img src="imagenes/image-terminal1.PNG" alt="Captura de la terminal cigwin">
+                  
+									<hr class="major" />
+									
+                  <h2>Visualización de datos con Datawrapper</h2>
+									<p>Con esta aplicación he podido subir directamente el archivo csv que contenía la base de datos. He decidido realizar dos visualizaciones. Una centrada en la evolución de las condenas a menores por delitos sexuales en los años 2017, 2018 y 2019. 
+                    En el segundo, he optado por destacar la edad de los condenados en el último año.</p>
+                  <h3>Gráfico 1</h3>
+                  <p> Para este gráfico que destaca la evolución a lo largo de los años, he escogido un gráfico de línea. Así, de un solo vistazo puedes ver cómo ha sido la tendencia; en este caso, al alza.</p>
+                  <img src="imagenes/image-graficototal.jpg" alt="gráfico lineas">
+                  <h3>Gráfico 2</h3>
+                  <p> Para mostrar las edades de los condenados, he optado por un gráfico de barras. Es simple, pero transmite el mensaje sin errores. Se puede ver claramente que durante el año 2019, el mayor número de condenas fueron para los menores de 14 años.</p>
+                  <img src="imagenes/image-graficoedad.jpg" alt="grafico de barras">
+                  <p> En estos casos, los colores de las gráficas no han sido elegidos por ninguna razón en especial, ya que es un tema que no está asociado a una gama cromática específica.</p>
+                                                                           
+                                                                                
+									
+							</section>
+						</div>
+				</div>
+				
+	
+<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="ejercicio1.html">Ejercicio 1</a></li>
+										<li><a href="ejericio2.html">Ejercicio 2</a></li>
+                    <li><a href="ejercicio3.html>Ejercicio3</a></li>
+											</ul>
+										</li>
+										
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Contacto</h2>
+									</header>
+									<p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">belen.parrillarodriguez@gmail.com</a></li>
+										
+									
+									</ul>
+								</section>
+
+
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+	</div id="contenedor">
+
+			
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+</body>
+</html>
